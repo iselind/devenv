@@ -12,7 +12,7 @@ on:
     tags: [ 'v*.*.*' ]
 env:
   # Use docker.io for Docker Hub if empty
-  REGISTRY: docker.io
+  REGISTRY: ""
   # github.repository as <account>/<repo>
   IMAGE_NAME: iselind/devenv
 
