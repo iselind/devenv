@@ -11,4 +11,4 @@ run:
 		--workdir="${HOME}" \
 		-e "PS1=${PS1}"  -e "PS2=${PS1}>" \
 		-e "HOME=${HOME}" \
-		devenv
+		devenv /bin/sh -c 'PATH=$${HOME}/bin:$${HOME}/.local/bin:$${PATH} /usr/bin/bash'
