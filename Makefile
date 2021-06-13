@@ -1,8 +1,7 @@
-all:
+build:
 	docker build -t devenv .
 
 run:
-	id
 	docker run -it \
 		-v ${HOME}:${HOME} \
 		-v /etc/passwd:/etc/passwd \
